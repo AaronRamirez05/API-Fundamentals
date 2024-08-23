@@ -32,3 +32,7 @@ C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\obj\Debug\n
 C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\obj\Debug\net8.0\CityInfo.API.genruntimeconfig.cache
 C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\obj\Debug\net8.0\ref\CityInfo.API.dll
 C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Aaron Ramirez Resume.pdf
+C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
