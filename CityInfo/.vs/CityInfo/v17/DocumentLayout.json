@@ -64,10 +64,9 @@
               "RelativeDocumentMoniker": "CityInfo.API\\Controllers\\PointsOfInterestController.cs",
               "ToolTip": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\Controllers\\PointsOfInterestController.cs",
               "RelativeToolTip": "CityInfo.API\\Controllers\\PointsOfInterestController.cs",
-              "ViewState": "AQIAAIYAAAAAAAAAAAAcwKUAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:45:51.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T05:45:51.176Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "CityInfo.API\\Models\\PointOfInterestForCreationDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T00:38:03.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T00:38:03.081Z"
             },
             {
               "$type": "Document",
@@ -90,7 +88,7 @@
               "RelativeDocumentMoniker": "CityInfo.API\\Controllers\\FilesController.cs",
               "ToolTip": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\Controllers\\FilesController.cs",
               "RelativeToolTip": "CityInfo.API\\Controllers\\FilesController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowEAAAABDAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T23:33:59.809Z",
               "EditorCaption": ""
@@ -105,8 +103,7 @@
               "RelativeToolTip": "CityInfo.API\\Models\\PointOfInterestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:30:42.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T05:30:42.644Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "CityInfo.API\\Models\\PointOfInterestForUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T03:55:31.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T03:55:31.471Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "CityInfo.API\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T04:19:35.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T04:19:35.445Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "CityInfo.API\\Models\\CityDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:49:23.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T04:49:23.564Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "CityInfo.API\\CitiesDataStore.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:53:44.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T04:53:44.523Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "CityInfo.API\\Controllers\\CitiesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:00:27.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T04:00:27.456Z"
             },
             {
               "$type": "Document",
@@ -183,8 +175,7 @@
               "RelativeToolTip": "CityInfo.API\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAIAAAAAAAAAAABRwA0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-20T03:55:52.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T03:55:52.627Z"
             },
             {
               "$type": "Document",
@@ -195,8 +186,7 @@
               "ToolTip": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
               "RelativeToolTip": "CityInfo.API\\CityInfo.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-20T03:58:59.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T03:58:59.407Z"
             }
           ]
         }
