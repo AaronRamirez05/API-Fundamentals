@@ -74,7 +74,7 @@ namespace CityInfo.API.DbContexts
         }
 
         public DbSet<City> Cities { get; set; }
-        public DbSet<PointOfInterest> PointOfInterests { get; set;}
+        public DbSet<PointOfInterest> PointsOfInterests { get; set;}
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
