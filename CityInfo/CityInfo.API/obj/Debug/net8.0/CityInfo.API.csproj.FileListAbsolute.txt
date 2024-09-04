@@ -152,3 +152,8 @@ C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\n
 C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\CityInfo.API.xml
+C:\Users\Aaron\Desktop\API-Fundamentals-Course\CityInfo\CityInfo.API\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll

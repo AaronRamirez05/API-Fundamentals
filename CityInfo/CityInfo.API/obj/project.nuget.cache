@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "utgKR9yAwXMzwSCjACATbAQom6qI9x5lsNy611JzEa5+BXEKybJ5ZIuBgy578FoWPGkIcwCWGgECSXmkjbF0hA==",
+  "dgSpecHash": "7mQdOgxgcfgbNOH4Zz2Ghzngd6KgJNk59I60CV2wqRaJSlYb1CyMcM5GWh/LCoGpQItai/UOg2FZ6/TYp0B8cA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Aaron\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\8.1.0\\asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
