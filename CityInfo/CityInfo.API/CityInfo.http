@@ -1,0 +1,36 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@schema = https
+@hostname = localhost
+@port = 7042
+
+GET {{schema}}://{{hostname}}:{{port}}/api/v2/cities
+
+###
+GET {{schema}}://{{hostname}}:{{port}}/api/v2/cities
+Accept:application/xml
+
+###
+POST {{schema}}://{{hostname}}:{{port}}/api/v2/cities/1/pointsofinterest
+Accept:application/json
+Content-Type: application/json
+
+{
+  "name": "A name for testing",
+  "description": "A description for testing"
+}
+
+###
+POST {{schema}}://{{hostname}}:{{port}}/api/authentication/authenticate
+Content-Type: application/json
+
+{
+    "username": "KevinDockx",
+    "password": "This is a relatively long sentence that acts as my password"
+}
+
+###
+
+//authenticated GET request
+GET {{schema}}://{{hostname}}:{{port}}/api/v2/cities
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZ2l2ZW5fbmFtZSI6IktldmluIiwiZmFtaWx5X25hbWUiOiJEb2NreCIsImNpdHkiOiJBbnR3ZXJwIiwibmJmIjoxNzI1NDkzODEwLCJleHAiOjE3MjU0OTc0MTAsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwNDIiLCJhdWQiOiJjaXR5aW5mb2FwaSJ9.fjgZXAp-D_iUJO-yO7NQqtD0nycB2XsJOeUfnf_bRvI
+
