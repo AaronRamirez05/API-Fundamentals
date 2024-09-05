@@ -1,7 +1,12 @@
 using Asp.Versioning.ApiExplorer;
+using Azure.Extensions.AspNetCore.Configuration.Secrets;
+using Azure.Identity;
+using Azure.Security.KeyVault.Secrets;
 using CityInfo.API;
 using CityInfo.API.DbContexts;
 using CityInfo.API.Models.Services;
+using Microsoft.ApplicationInsights.Extensibility;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -12,12 +17,45 @@ using System.Reflection;
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()
     .WriteTo.Console()
-    .WriteTo.File("log/cityinfo.txt", rollingInterval: RollingInterval.Day)
-        .CreateLogger();
+    .CreateLogger();
 var builder = WebApplication.CreateBuilder(args);
 //builder.Logging.ClearProviders();
 //builder.Logging.AddConsole();
-builder.Host.UseSerilog();
+var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+if (environment == Environments.Development)
+{
+    builder.Host.UseSerilog(
+        (context, LoggerConfiguration) => LoggerConfiguration
+        .MinimumLevel.Debug()
+        .WriteTo.Console());
+}
+else
+{
+    try
+    {
+        var secretClient = new SecretClient(
+            new Uri("https://pluralsightkeyvaultar.vault.azure.net"),
+            new DefaultAzureCredential()
+            );
+
+        builder.Configuration.AddAzureKeyVault(secretClient,
+            new KeyVaultSecretManager());
+    }
+    catch(Exception ex)
+    {
+        Log.Error(ex, "Error retrieving secrets from azure key vault");
+    }
+
+    builder.Host.UseSerilog(
+        (context, LoggerConfiguration) => LoggerConfiguration
+        .MinimumLevel.Debug()
+        .WriteTo.Console()
+        .WriteTo.File("logs/cityinfo.txt", rollingInterval: RollingInterval.Day)
+        .WriteTo.ApplicationInsights(new TelemetryConfiguration
+        {
+            InstrumentationKey = builder.Configuration["ApplicationInsightsInstrumentationKey"]
+        },TelemetryConverter.Traces));
+}
 
 // Add services to the container.
 builder.Services.AddControllers(options =>
@@ -37,7 +75,6 @@ builder.Services.AddProblemDetails();
 //    };
 //});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 
 #if DEBUG
@@ -77,7 +114,9 @@ builder.Services.AddAuthorization(
         });
 
 
-    });
+    }
+ );
+
 
 builder.Services.AddApiVersioning(setupAction =>
 {
@@ -90,8 +129,13 @@ builder.Services.AddApiVersioning(setupAction =>
         setupAction.SubstituteApiVersionInUrl = true;
     });
 
+builder.Services.AddEndpointsApiExplorer();
+
 var apiVersionDescriptionProvider = builder.Services.BuildServiceProvider()
     .GetRequiredService<IApiVersionDescriptionProvider>();
+
+
+
 
 builder.Services.AddSwaggerGen(
     setupAction =>
@@ -140,6 +184,11 @@ builder.Services.AddSwaggerGen(
     }
     );
 
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor
+    | ForwardedHeaders.XForwardedProto;
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -148,8 +197,10 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler();
 }
 
-if (app.Environment.IsDevelopment())
-{
+app.UseForwardedHeaders();
+
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI(setupAction=>
     {
@@ -163,7 +214,7 @@ if (app.Environment.IsDevelopment())
 
     }
     );
-}
+//}
 
 app.UseHttpsRedirection();
 

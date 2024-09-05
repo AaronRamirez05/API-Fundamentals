@@ -1,5 +1,6 @@
 ﻿using Asp.Versioning;
 using AutoMapper;
+using CityInfo.API.Entities;
 using CityInfo.API.Models;
 using CityInfo.API.Models.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -48,19 +49,19 @@ namespace CityInfo.API.Controllers
         /// <summary>
         /// Get a city by id
         /// </summary>
-        /// <param name="id">The id of the city to get</param>
+        /// <param name="cityId">The id of the city to get</param>
         /// <param name="includePointsOfInterest">Whether or not to include points of interest</param>
         /// <returns>A city with or without points of interest</returns>
         /// <response code ="200">Returns the requested city</response>
-        [HttpGet("{id}")]
+        [HttpGet("{cityId}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> GetCity(
-            int id, 
+            int cityId, 
             bool includePointsOfInterest = false)
         {
-            var city = await _cityInfoRepository.GetCityAsync(id,includePointsOfInterest);
+            var city = await _cityInfoRepository.GetCityAsync(cityId, includePointsOfInterest);
             if(city == null)
             {
                 return NotFound();
