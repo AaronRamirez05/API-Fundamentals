@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\aaron\\desktop\\api-fundamentals-course\\cityinfo\\cityinfo.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\aaron\\desktop\\api-fundamentals-course\\cityinfo\\cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\aaron\\desktop\\api-fundamentals-course\\cityinfo\\cityinfo.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\aaron\\desktop\\api-fundamentals-course\\cityinfo\\cityinfo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\aaron\\desktop\\api-fundamentals-course\\cityinfo\\cityinfo.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\aaron\\desktop\\api-fundamentals-course\\cityinfo\\cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\aaron\\desktop\\api-fundamentals-course\\cityinfo\\cityinfo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5E0A7B3-64FD-44C0-8BFF-1268F8FFFFAE}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\aaron\\desktop\\api-fundamentals-course\\cityinfo\\cityinfo.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,41 +154,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\Program.cs",
               "RelativeDocumentMoniker": "CityInfo.API\\Program.cs",
               "ToolTip": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\Program.cs",
               "RelativeToolTip": "CityInfo.API\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T04:19:35.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\appsettings.json",
-              "RelativeDocumentMoniker": "CityInfo.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\appsettings.json",
-              "RelativeToolTip": "CityInfo.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T04:25:29.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CityInfo.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\appsettings.Development.json",
-              "RelativeToolTip": "CityInfo.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-27T04:35:20.593Z",
               "EditorCaption": ""
             },
             {
@@ -199,10 +173,35 @@
               "RelativeDocumentMoniker": "CityInfo.API\\appsettings.Production.json",
               "ToolTip": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\appsettings.Production.json",
               "RelativeToolTip": "CityInfo.API\\appsettings.Production.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-05T03:02:53.467Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CityInfo.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\appsettings.Development.json",
+              "RelativeToolTip": "CityInfo.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-27T04:35:20.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\appsettings.json",
+              "RelativeDocumentMoniker": "CityInfo.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\appsettings.json",
+              "RelativeToolTip": "CityInfo.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-02T04:25:29.86Z"
             },
             {
               "$type": "Document",
@@ -227,8 +226,7 @@
               "RelativeToolTip": "CityInfo.API\\CityInfo.http",
               "ViewState": "AQIAABcAAAAAAAAAAAAgwCEAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-04T23:40:45.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T23:40:45.621Z"
             },
             {
               "$type": "Document",
@@ -278,8 +276,7 @@
               "ToolTip": "C:\\Users\\Aaron\\Desktop\\API-Fundamentals-Course\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
               "RelativeToolTip": "CityInfo.API\\CityInfo.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-20T03:58:59.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T03:58:59.407Z"
             },
             {
               "$type": "Document",
@@ -343,8 +340,7 @@
               "RelativeToolTip": "CityInfo.API\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-30T03:20:25.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T03:20:25.956Z"
             },
             {
               "$type": "Document",
@@ -447,8 +443,7 @@
               "RelativeToolTip": "CityInfo.API\\Migrations\\20240829001047_CityInfoPOIRename.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T00:10:47.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T00:10:47.376Z"
             },
             {
               "$type": "Document",
@@ -460,8 +455,7 @@
               "RelativeToolTip": "CityInfo.API\\Migrations\\CityInfoContextModelSnapshot.cs",
               "ViewState": "AQIAAG0AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T02:57:57.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T02:57:57.21Z"
             },
             {
               "$type": "Document",
@@ -486,8 +480,7 @@
               "RelativeToolTip": "CityInfo.API\\Migrations\\20240828032051_InitialDataSeed.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T03:20:51.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T03:20:51.225Z"
             },
             {
               "$type": "Document",
@@ -499,8 +492,7 @@
               "RelativeToolTip": "CityInfo.API\\Migrations\\20240828030808_CityInfoDBAddPOIDescription.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T03:08:09.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T03:08:09.028Z"
             },
             {
               "$type": "Document",
@@ -525,8 +517,7 @@
               "RelativeToolTip": "CityInfo.API\\Migrations\\20240828025718_CityInfoDBInitialMigration.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAgwDAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T02:57:18.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T02:57:18.995Z"
             },
             {
               "$type": "Document",
