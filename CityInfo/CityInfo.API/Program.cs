@@ -34,7 +34,7 @@ else
     try
     {
         var secretClient = new SecretClient(
-            new Uri("https://pluralsightkeyvaultar.vault.azure.net"),
+            new Uri("https://pluralsightkeyvaultar.vault.azure.net/"),
             new DefaultAzureCredential()
             );
 
